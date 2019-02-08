@@ -3,7 +3,7 @@ function sum(fromN, toN) {
   if (fromN === toN) {
     return current;
   }
-    current = current + 1;
+    current += 1;
     return fromN + sum(current , toN);
 }
 module.exports = sum;
